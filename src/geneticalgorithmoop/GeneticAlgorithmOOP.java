@@ -9,7 +9,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- *
  * @author sina
  */
 public class GeneticAlgorithmOOP {
@@ -31,12 +30,10 @@ public class GeneticAlgorithmOOP {
         counter = in.nextInt();
         System.out.println("Let's Go...");
         GA ga = new GA(m, counter);
-        result = ga.start();
+        result = (int) ga.start();
         System.out.println("Final Result is : " + result);
 
-        
-    
-        
+
     }
-  
+
 }
